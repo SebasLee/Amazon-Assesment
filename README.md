@@ -45,3 +45,13 @@ Once an appropriate location is found, type in ``git clone`` followed by the cop
 <br></br>
 
 The terminal will form the repository into the computer. The URL can be verified with the ``git remote -v`` command, which will show the repository under the Github username. To initiate the project, change directory into the repository and open it with the preferred code editor (``code .`` for VScode). 
+<br></br>
+<img src="./images/openCode.png"/>
+<br></br>
+
+Code can now be edited or added. To save and transfer the code to the forked repository, type these commands to the terminal:
+
+``git add .
+  git commit -m "your message"
+  git push origin "defualt branch"
+``
