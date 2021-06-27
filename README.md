@@ -37,4 +37,11 @@ To gain access to the code, click on the green **Code** button in approximately 
 <img src="./images/2nd.jpeg" />
 <br></br>
 
-A pop-up will appear with options and a HTTPS link indicated by the green circle. Copy the link. Next, open the terminal and navigate with ``cd`` to the desired folder location for the repository's code.
+A pop-up will appear with options and a HTTPS URL link indicated by the green circle. Copy the link. Next, open the terminal and navigate with ``cd`` (change directory) to the desired location for the repository's code.
+
+Once an appropriate location is found, type in ``git clone`` followed by the copied HTTPS link. Then press the enter keyword.
+<br></br>
+<img src="./images/cloneterminal.png" />
+<br></br>
+
+The terminal will form the repository into the computer. The URL can be verified with the ``git remote -v`` command, which will show the repository under the Github username. To initiate the project, change directory into the repository and open it with the preferred code editor (``code .`` for VScode). 
