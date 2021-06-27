@@ -49,6 +49,9 @@ The terminal will form the repository into the computer. The URL can be verified
 <img src="./images/openCode.png"/>
 <br></br>
 
-Code can now be edited or added. To save and transfer the code to the forked repository, type these commands to the terminal: ``git add .``, ``git commit -m "your message"``, then ``git push origin "defualt branch"``
+Code can now be edited or added. To save and transfer the code to the forked repository, type these commands to the terminal: ``git add .``, ``git commit -m "message"``, then ``git push origin defualt branch``
 <br></br>
 <img src="./images/gitPush.png" />
+<br></br>
+
+``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. ``git push origin defualt branch`` pushes the altered code to the repository. Be aware that the ``default branch`` in this command is usually named ``master`` or ``main``.
