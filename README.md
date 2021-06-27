@@ -55,3 +55,13 @@ Code can now be edited or added. To save and transfer the code to the forked rep
 <br></br>
 
 ``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. ``git push origin defualt branch`` pushes the altered code to the repository. Be aware that the ``default branch`` in this command is usually named ``master`` or ``main``.
+<br></br>
+# Pull Request and Merging Code
+With edited code now in the copied repository, merging it with the original repository can be initiated with a **pull request**. 
+
+On the copied repository's main page, click on the pull requests tab on the navigation bar below the repository name. Once on the new page click on the green new pull request button on the right side of the page.
+<br></br>
+<img src="./images/pullRequest.jpeg" />
+
+<img src="./images/newPull.jpeg" />
+<br></br>
