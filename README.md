@@ -49,9 +49,6 @@ The terminal will form the repository into the computer. The URL can be verified
 <img src="./images/openCode.png"/>
 <br></br>
 
-Code can now be edited or added. To save and transfer the code to the forked repository, type these commands to the terminal:
-
-``git add .
-  git commit -m "your message"
-  git push origin "defualt branch"
-``
+Code can now be edited or added. To save and transfer the code to the forked repository, type these commands to the terminal: ``git add .``, ``git commit -m "your message"``, then ``git push origin "defualt branch"``
+<br></br>
+<img src="./images/gitPush.png" />
