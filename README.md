@@ -26,9 +26,15 @@ To fork a repository, first locate a repository to work on through public access
 <img src="./images/1st.jpeg"/>
 <br></br>
 
-This will create the copied repository that can be edited. The top left corner of the page will now indicate the repository is under the user's account. To gain access to the code, click on the green **Code** button in approximately the upper-center-right of the page, indicated by the red circle. 
+This will create the copied repository that can be edited. The top left corner of the page will now indicate the repository is under the user's account. 
+<br></br>
+# Cloning Repository and Editing Code
+
+The **terminal** is a computer interface that connects to the **command line**, where users can effectively communicate with their computer's operating system and outside sources. It is key to connecting Github accounts to code editors.
+
+To gain access to the code, click on the green **Code** button in approximately the upper-center-right of the page, indicated by the red circle. 
 <br></br>
 <img src="./images/2nd.jpeg" />
 <br></br>
 
-A pop-up will appear with options and a HTTPS link indicated by the green circle. Copy the link as it will be pasted in the terminal.
+A pop-up will appear with options and a HTTPS link indicated by the green circle. Copy the link. Next, open the terminal and navigate with ``cd`` to the desired folder location for the repository's code.
