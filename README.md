@@ -59,9 +59,27 @@ Code can now be edited or added. To save and transfer the code to the forked rep
 # Pull Request and Merging Code
 With edited code now in the copied repository, merging it with the original repository can be initiated with a **pull request**. 
 
-On the copied repository's main page, click on the pull requests tab on the navigation bar below the repository name. Once on the new page click on the green new pull request button on the right side of the page.
+On the copied repository's main page, click on the pull requests tab on the navigation bar below the repository name. 
 <br></br>
 <img src="./images/pullRequest.jpeg" />
+<br></br>
 
+Once on the new page click on the green new pull request button on the right side of the page.
+<br></br>
 <img src="./images/newPull.jpeg" />
+<br></br>
+
+Any additions or deletions to the code can be reviewed and compared. If there are no errors, click on the create pull request button to send the request to the original repository owner.
+<br></br>
+<img src="./images/compare.jpeg" />
+<br></br>
+
+The owner will now be able to review the pull request on the requests page.
+<br></br>
+<img src="./images/accessRequest.jpeg" />
+<br></br>
+
+The green circle indicates the requested changes for the repository that the owner can review prior to merging. If edits are satisfactory, the owner can click on the merge pull request button to integrate the code and complete the process.
+<br></br>
+<img src="./images/review.jpeg" />
 <br></br>
