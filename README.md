@@ -54,7 +54,13 @@ Code can now be edited or added. To save and transfer altered code to the forked
 <img src="./images/gitPush.png" />
 <br></br>
 
-``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. ``git push origin defualt-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``.
+``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. 
+
+``git push origin defualt-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``. To verify the branch name, type in ``git branch`` before pushing the code.
+<br></br>
+<img src="./images/branch.png" />
+<br></br>
+
 <br></br>
 # Pull Request and Merging Code
 With edited code now in the copied repository, merging it with the original repository can be initiated with a **pull request**. 
@@ -69,17 +75,22 @@ Once on the new page click on the green new pull request button on the right sid
 <img src="./images/newRequest.jpeg" />
 <br></br>
 
-Any additions or deletions to the code can be reviewed and compared. The green square indicates the route the copied repository's code will take to reach the original repository. Ensure that the branch names are correct to receive the "Able to merge" prompt. If there are no other errors, click on the create pull request button to send the request to the original repository owner.
+Any additions or deletions to the code can be reviewed and compared. The green square indicates the route the copied repository's code will take to reach the original repository. Ensure that the branch names are correct to receive the "Able to merge" prompt. If there are no other errors, click on the "create pull request" button.
 <br></br>
 <img src="./images/newCompare.jpeg" />
 <br></br>
 
-The owner will now be able to review the pull request on the requests page.
+On the new page, custom messages can be created to explain the edits. When ready, click on the "create pull request" button to send the changes to the original repository owner.
+<br></br>
+<img src="./images/message.jpeg" /> 
+<br></br>
+
+The owner will now be able to review the pull request on the pull requests page.
 <br></br>
 <img src="./images/requestACC.jpeg" />
 <br></br>
 
-The green circle indicates the requested changes for the repository that the owner can review prior to merging. If edits are satisfactory, the owner can click on the merge pull request button to integrate the code and complete the process.
+The green circle indicates the requested changes for the repository that the owner can review prior to merging. If edits are satisfactory, the owner can click on the merge pull request button and confirm integrating the code.
 <br></br>
 <img src="./images/reviewCode.jpeg" />
 <br></br>
