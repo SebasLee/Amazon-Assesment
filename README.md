@@ -18,7 +18,7 @@ Cloning the original repository can quickly update projects since invited users 
 
 Forking repositories allow for wider access to Github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
 
-This user guide will focus on how to Fork repositories and implement changes. It will center around MacOS systems.
+This user guide is for new Github users and will focus on how to Fork repositories and implement changes. It will center around MacOS systems.
 <br></br>
 # How to Fork a Github Repository
 To fork a repository, first locate a repository to work on through public access or an invititation from the owner. Once on the homepage for the project, click the Fork button located in the top-right corner of the browser and near the profile icon.
@@ -69,7 +69,7 @@ Once on the new page click on the green new pull request button on the right sid
 <img src="./images/newRequest.jpeg" />
 <br></br>
 
-Any additions or deletions to the code can be reviewed and compared. The green square indicates the route the copied repository's code will take to reach the original repository. Ensure that the branch locations are correct to receive the "Able to merge" prompt. If there are no other errors, click on the create pull request button to send the request to the original repository owner.
+Any additions or deletions to the code can be reviewed and compared. The green square indicates the route the copied repository's code will take to reach the original repository. Ensure that the branch names are correct to receive the "Able to merge" prompt. If there are no other errors, click on the create pull request button to send the request to the original repository owner.
 <br></br>
 <img src="./images/newCompare.jpeg" />
 <br></br>
