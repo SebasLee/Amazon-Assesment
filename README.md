@@ -23,7 +23,7 @@ This user guide will focus on how to Fork repositories and implement changes. It
 # How to Fork Github Repositories
 To fork a repository, first locate a repository to work on through public access or an invititational from the owner. Once on the home page for the project, click the Fork button located in the top-right corner of the browser and near the profile icon.
 <br></br>
-<img src="./images/1st.jpeg"/>
+<img src="./images/koko.jpeg"/>
 <br></br>
 
 This will create the copied repository that can be edited. The top left corner of the page will now indicate the repository is under the user's account. 
