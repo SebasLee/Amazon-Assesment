@@ -10,31 +10,31 @@ One popular method Github users use to collaborate on repositories is called **F
     <img src="./images/Git-Clone.jpeg" height="400" />
     <img src="./images/fork.png" height="400" />
 </p>
-The image on the left illustrates the developer process cloning without forking, while the right illustrates the process with forking.
+The image on the left illustrates the developer process when cloning without forking, while the right illustrates the process with forking.
 <br></br>
 
 
 Cloning the original repository can quickly update projects since invited users can push changes at anytime. In group projects however, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
 
-Forking repositories allows for wider access to github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
+Forking repositories allow for wider access to Github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
 
-This user guide will focus on how to Fork repositories and implement changes. It will center around macOS systems.
+This user guide will focus on how to Fork repositories and implement changes. It will center around MacOS systems.
 <br></br>
-# How to Fork Github Repositories
-To fork a repository, first locate a repository to work on through public access or an invititational from the owner. Once on the home page for the project, click the Fork button located in the top-right corner of the browser and near the profile icon.
+# How to Fork a Github Repository
+To fork a repository, first locate a repository to work on through public access or an invititation from the owner. Once on the homepage for the project, click the Fork button located in the top-right corner of the browser and near the profile icon.
 <br></br>
-<img src="./images/koko.jpeg"/>
+<img src="./images/1stfork.jpeg"/>
 <br></br>
 
 This will create the copied repository that can be edited. The top left corner of the page will now indicate the repository is under the user's account. 
 <br></br>
-# Cloning Repository and Editing Code
+# The Terminal and Cloning the Repository
 
 The **terminal** is a computer interface that connects to the **command line**, where users can effectively communicate with their computer's operating system and outside sources. It is key to connecting Github accounts to code editors.
 
 To gain access to the code, click on the green **Code** button in approximately the upper-center-right of the page, indicated by the red circle. 
 <br></br>
-<img src="./images/2nd.jpeg" />
+<img src="./images/2ndStep.jpeg" />
 <br></br>
 
 A pop-up will appear with options and a HTTPS URL link indicated by the green circle. Copy the link. Next, open the terminal and navigate with ``cd`` (change directory) to the desired location for the repository's code.
@@ -44,42 +44,54 @@ Once an appropriate location is found, type in ``git clone`` followed by the cop
 <img src="./images/cloneterminal.png" />
 <br></br>
 
-The terminal will form the repository into the computer. The URL can be verified with the ``git remote -v`` command, which will show the repository under the Github username. To initiate the project, change directory into the repository and open it with the preferred code editor (``code .`` for VScode). 
+The terminal will form the copied repository's files into the computer's system. The URL can be verified with the ``git remote -v`` command, which will show the repository under the Github username. To initiate the project, change directory into the repository and open it with the preferred code editor (``code .`` for VScode). 
 <br></br>
 <img src="./images/openCode.png"/>
 <br></br>
 
-Code can now be edited or added. To save and transfer the code to the forked repository, type these commands to the terminal: ``git add .``, ``git commit -m "message"``, then ``git push origin defualt branch``
+Code can now be edited or added. To save and transfer altered code to the forked repository, type these commands in the terminal in the following order: ``git add .``, ``git commit -m "message"``, then ``git push origin defualt-branch``
 <br></br>
 <img src="./images/gitPush.png" />
 <br></br>
 
-``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. ``git push origin defualt branch`` pushes the altered code to the repository. Be aware that the ``default branch`` in this command is usually named ``master`` or ``main``.
+``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. ``git push origin defualt-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``.
 <br></br>
 # Pull Request and Merging Code
 With edited code now in the copied repository, merging it with the original repository can be initiated with a **pull request**. 
 
 On the copied repository's main page, click on the pull requests tab on the navigation bar below the repository name. 
 <br></br>
-<img src="./images/pullRequest.jpeg" />
+<img src="./images/pull.jpeg" />
 <br></br>
 
 Once on the new page click on the green new pull request button on the right side of the page.
 <br></br>
-<img src="./images/newPull.jpeg" />
+<img src="./images/newRequest.jpeg" />
 <br></br>
 
-Any additions or deletions to the code can be reviewed and compared. If there are no errors, click on the create pull request button to send the request to the original repository owner.
+Any additions or deletions to the code can be reviewed and compared. The green square indicates the route the copied repository's code will take to reach the original repository. Ensure that the branch locations are correct to receive the "Able to merge" prompt. If there are no other errors, click on the create pull request button to send the request to the original repository owner.
 <br></br>
-<img src="./images/compare.jpeg" />
+<img src="./images/newCompare.jpeg" />
 <br></br>
 
 The owner will now be able to review the pull request on the requests page.
 <br></br>
-<img src="./images/accessRequest.jpeg" />
+<img src="./images/requestACC.jpeg" />
 <br></br>
 
 The green circle indicates the requested changes for the repository that the owner can review prior to merging. If edits are satisfactory, the owner can click on the merge pull request button to integrate the code and complete the process.
 <br></br>
-<img src="./images/review.jpeg" />
+<img src="./images/reviewCode.jpeg" />
 <br></br>
+# Summary
+
+In short, forking and editing a repository follows these steps:
+
+1. Find a Github project to contribute to
+2. Fork the repository to create a copy of it
+3. ``git clone`` the copied repository with the terminal
+4. Access and edit the code
+5. Save edits and commit and push them to Github
+6. Create a pull request and review code
+7. Send pull request to the original reposioty owner
+8. Repository owner reviews edits and merges them 
