@@ -1,6 +1,22 @@
-# Amazon-Assement
+# Amazon-Assesment
 
-# Github and Repositories
+# Forking Github Repositories
+
+This user guide teaches recent Github users how to fork a Github repository and implement changes. It will center around MacOS systems.
+
+In short, forking and editing a repository follows these steps:
+
+1. Find a Github project to contribute to
+2. Fork the repository to create a copy of it
+3. ``git clone`` the copied repository with the terminal
+4. Access and edit the code
+5. Save edits and commit and push them to Github
+6. Create a pull request and review code
+7. Send pull request to the original reposioty owner
+8. Repository owner reviews edits and merges them 
+<br></br>
+
+# Explaining Github
 
 Github is a code-hosting platform that can track and save code in real time. It connects to a user's code editor and allows open-source access to that user's repository (the space where code is stored). In other words, Github allows for collaboration between different users on the same projects. 
 
@@ -17,8 +33,6 @@ The image on the left illustrates the developer process when cloning without for
 Cloning the original repository can quickly update projects since invited users can push changes at anytime. In group projects however, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
 
 Forking repositories allow for wider access to Github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
-
-This user guide is for new Github users and will focus on how to Fork repositories and implement changes. It will center around MacOS systems.
 <br></br>
 # How to Fork a Github Repository
 To fork a repository, first locate a repository to work on through public access or an invititation from the owner. Once on the homepage for the project, click the **Fork** button located in the top-right corner of the browser and near the profile icon.
@@ -94,15 +108,3 @@ The green circle indicates the requested changes for the repository that the own
 <br></br>
 <img src="./images/reviewCode.jpeg" />
 <br></br>
-# Summary
-
-In short, forking and editing a repository follows these steps:
-
-1. Find a Github project to contribute to
-2. Fork the repository to create a copy of it
-3. ``git clone`` the copied repository with the terminal
-4. Access and edit the code
-5. Save edits and commit and push them to Github
-6. Create a pull request and review code
-7. Send pull request to the original reposioty owner
-8. Repository owner reviews edits and merges them 
