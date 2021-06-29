@@ -2,7 +2,7 @@
 
 # Forking Github Repositories
 
-This user guide teaches recent Github users how to fork a Github repository and implement changes. It will center around MacOS systems.
+This user guide teaches junior programmers and recent Github users how to fork a Github repository and implement changes. It will center around MacOS systems.
 
 In short, forking and editing a repository follows these steps:
 
