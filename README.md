@@ -6,7 +6,7 @@ This user guide teaches recent Github users how to fork a Github repository and 
 
 In short, forking and editing a repository follows these steps:
 
-1. [Fork the original repository to create a copy of it](#how-to-fork-a-github-repository)
+1. [Fork the original repository to create a copy](#how-to-fork-a-github-repository)
 2. [Clone and edit the copied repository with the terminal](#the-terminal-and-cloning-the-repository)
 3. [Create a pull request](#create-a-pull-request)
 4. [Original repository owner reviews and merges the code](#merging-the-code)
