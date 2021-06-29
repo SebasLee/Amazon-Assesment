@@ -36,7 +36,7 @@ To fork a repository, locate a repository to work on through public access or an
 <img src="./images/1stfork.jpeg"/>
 <br></br>
 
-This will create a copied repository that can be edited. The top left corner of the page will now indicate the repository is under the user's account. 
+This will create a copied repository that can be edited. The top left corner of the page now indicates the repository is under the user's account. 
 <br></br>
 # The Terminal and Cloning the Repository
 
