@@ -40,7 +40,7 @@ This will create a copied repository that can be edited. The top left corner of 
 <br></br>
 # The Terminal and Cloning the Repository
 
-The **terminal** is a computer interface that connects to the **command line**, where users can effectively communicate with their computer's operating system and outside sources. It is key to connecting Github accounts to code editors.
+The **terminal** is a computer interface that connects to the command line, where users can effectively communicate with their computer's operating system and outside sources. It is key to connecting Github accounts to code editors.
 
 To gain access to the code, click on the green **Code** button in approximately the upper-center-right of the page, indicated by the red circle. 
 <br></br>
