@@ -66,7 +66,9 @@ Code can now be edited or added. To save and transfer altered code to the forked
 
 ``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. 
 
-``git push origin default-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``. To verify the branch name, type in ``git branch`` before pushing the code.
+``git push origin default-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``. To verify the branch name, type in ``git branch`` before pushing the code. 
+
+For this example, ``git branch`` returns ``master`` for the branch name. Therfore the push command is ``git push origin master``.
 <br></br>
 <img src="./images/gitBranch.png" />
 <br></br>
