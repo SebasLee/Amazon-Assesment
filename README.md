@@ -30,7 +30,7 @@ The first image illustrates the developer process when cloning without forking, 
 <br></br>
 
 
-Cloning the original repository can quickly update projects since invited users can push changes at anytime. In group projects however, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
+Cloning the original repository can quickly update projects since invited users can push changes at any time. In group projects, however, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
 
 Forking a repository allows for wider access to Github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
 <br></br>
@@ -40,7 +40,7 @@ To fork a repository, locate a repository to work on through public access or an
 <img src="./images/1stfork.jpeg"/>
 <br></br>
 
-This will create the copied repository that can be edited. The top left corner of the page will now indicate the repository is under the user's account. 
+This will create a copied repository that can be edited. The top left corner of the page will now indicate the repository is under the user's account. 
 <br></br>
 # The Terminal and Cloning the Repository
 
@@ -51,14 +51,14 @@ To gain access to the code, click on the green **Code** button in approximately 
 <img src="./images/2ndStep.jpeg" />
 <br></br>
 
-A pop-up will appear with options and a HTTPS URL link indicated by the green circle. Copy the link. Next, open the terminal and navigate with ``cd`` (change directory) to the desired location for the repository's code.
+A pop-up will appear with options and an HTTPS URL link indicated by the green circle. Copy the link. Next, open the terminal and navigate with ``cd`` (change directory) to the desired location for the repository's code.
 
-Once an appropriate location is found, type in ``git clone`` followed by the copied HTTPS link. Then press the enter keyword.
+Once an appropriate location is found, enter in ``git clone`` followed by the copied HTTPS link.
 <br></br>
 <img src="./images/cloneterminal.png" />
 <br></br>
 
-The terminal will form the copied repository's files into the computer's system. The URL can be verified with the ``git remote -v`` command, which will show the repository under the Github username. To initiate the project, change directory into the repository and open it with the preferred code editor (``code .`` for VScode). 
+The terminal will form the copied repository's files into the computer's system. The URL can be verified with the ``git remote -v`` command, which will show the repository under the Github username. To initiate the project, navigate with ``cd`` to the repository and open it with the preferred code editor (``code .`` for VScode). 
 <br></br>
 <img src="./images/openCode.png"/>
 <br></br>
