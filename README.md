@@ -26,7 +26,7 @@ The first image illustrates the developer process when cloning without forking, 
 <br></br>
 
 
-Cloning the original repository can quickly update projects since invited users can push changes at any time. However in group projects, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
+Cloning the original repository can quickly update projects since invited users can push changes at any time. However, in group projects, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
 
 Forking a repository allows for wider access to Github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
 <br></br>
@@ -68,7 +68,7 @@ Code can now be edited or added. To save and transfer altered code to the forked
 
 ``git push origin default-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``. To verify the branch name, type in ``git branch`` before pushing the code. 
 
-For this example, ``git branch`` returns ``master`` for the branch name. Therfore the push command is ``git push origin master``.
+For this example, ``git branch`` returns ``master`` for the branch name. Therefore the push command is ``git push origin master``.
 <br></br>
 <img src="./images/gitBranch.png" />
 <br></br>
