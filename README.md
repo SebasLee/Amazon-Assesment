@@ -26,7 +26,7 @@ The first image illustrates the developer process when cloning without forking, 
 <br></br>
 
 
-Cloning the original repository can quickly update projects since invited users can push changes at any time. In group projects, however, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
+Cloning the original repository can quickly update projects since invited users can push changes at any time. However in group projects, this can lead to unwanted changes in the main code if users are not communicating effectively. Therefore this process is suited better for groups that decentralize their assignments. 
 
 Forking a repository allows for wider access to Github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
 <br></br>
