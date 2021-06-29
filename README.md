@@ -6,14 +6,10 @@ This user guide teaches recent Github users how to fork a Github repository and 
 
 In short, forking and editing a repository follows these steps:
 
-1. Find a Github project to contribute to
-2. Fork the repository to create a copy of it
-3. ``git clone`` the copied repository with the terminal
-4. Access and edit the code
-5. Save edits and commit and push them to Github
-6. Create a pull request and review the code
-7. Send a pull request to the original repository owner
-8. Repository owner reviews and merges code 
+1. [Fork the original repository to create a copy of it](#how-to-fork-a-github-repository)
+2. [Clone and edit the copied repository with the terminal](#the-terminal-and-cloning-the-repository)
+3. [Create a pull request](#create-a-pull-request)
+4. [Original repository owner reviews and merges the code](#merging-the-code)
 <br></br>
 
 # Explaining Github
@@ -74,9 +70,8 @@ Code can now be edited or added. To save and transfer altered code to the forked
 <br></br>
 <img src="./images/branch.png" />
 <br></br>
+# Create a pull request
 
-<br></br>
-# Pull Request and Merging Code
 With edited code now in the copied repository, merging it with the original repository can be initiated with a **pull request**. 
 
 On the copied repository's main page, click on the **Pull requests** tab on the navigation bar below the repository name. 
@@ -98,6 +93,7 @@ On the new page, custom messages can be created to explain the edits. When ready
 <br></br>
 <img src="./images/message.jpeg" /> 
 <br></br>
+# Merging the code
 
 The owner will now be able to review the pull request on the pull requests page.
 <br></br>
