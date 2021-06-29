@@ -95,7 +95,7 @@ On the new page, custom messages can be created to explain the edits. When ready
 <br></br>
 # Merging the code
 
-The owner will now be able to review the pull request on the pull requests page.
+The owner can now review the pull request on the pull requests page.
 <br></br>
 <img src="./images/requestACC.jpeg" />
 <br></br>
