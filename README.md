@@ -68,7 +68,7 @@ Code can now be edited or added. To save and transfer altered code to the forked
 
 ``git push origin default-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``. To verify the branch name, type in ``git branch`` before pushing the code.
 <br></br>
-<img src="./images/branch.png" />
+<img src="./images/gitBranch.png" />
 <br></br>
 # Create a pull request
 
@@ -86,21 +86,21 @@ Once on the new page click on the **New pull request** button on the right side 
 
 Any additions or deletions to the code can be reviewed and compared. The green square indicates the route the copied repository's code will take to reach the original repository. Ensure that the branch names are correct to receive the **Able to merge** prompt. If there are no other errors, click on the **Create pull request** button.
 <br></br>
-<img src="./images/newCompare.jpeg" />
+<img src="./images/compareNew.jpeg" />
 <br></br>
 
 On the new page, custom messages can be created to explain the edits. When ready, click on the **Create pull request** button to send the changes to the original repository owner.
 <br></br>
-<img src="./images/message.jpeg" /> 
+<img src="./images/createMessage.jpeg" /> 
 <br></br>
 # Merging the code
 
 The owner can now review the pull request on the pull requests page.
 <br></br>
-<img src="./images/requestACC.jpeg" />
+<img src="./images/sentEdits.jpeg" />
 <br></br>
 
 The green circle indicates the requested changes for the repository that the owner can review before merging. If edits are satisfactory, the owner can click on the **Merge pull request** button and confirm integrating the code.
 <br></br>
-<img src="./images/reviewCode.jpeg" />
+<img src="./images/Review.jpeg" />
 <br></br>
