@@ -14,7 +14,7 @@ In short, forking and editing a repository follows these steps:
 
 # Explaining Github
 
-Github is a code-hosting platform that can track and save code. It connects to a user's code editor and allows open-source access to that user's repository (space where code is stored). In other words, Github allows for collaboration between different users on the same projects. 
+Github is a code-hosting service that can track and save code. It connects to a user's code editor and allows open-source access to that user's repository (space where code is stored). In other words, Github allows for collaboration between different users on the same projects. 
 
 One popular method Github users use to collaborate on repositories is called **Forking**. Forking is when users take a copy of a repository into their accounts and clone it into their local computers to make edits. This method is in contrast to direct **Cloning**, which forgoes forking and only clones down the original repository.
 <br></br>
