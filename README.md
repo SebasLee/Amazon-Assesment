@@ -63,14 +63,14 @@ The terminal will form the copied repository's files into the computer's system.
 <img src="./images/openCode.png"/>
 <br></br>
 
-Code can now be edited or added. To save and transfer altered code to the forked repository, type these commands in the terminal in the following order: ``git add .``, ``git commit -m "message"``, then ``git push origin defualt-branch``
+Code can now be edited or added. To save and transfer altered code to the forked repository, type these commands in the terminal in the following order: ``git add .``, ``git commit -m "message"``, then ``git push origin default-branch``
 <br></br>
 <img src="./images/gitPush.png" />
 <br></br>
 
 ``git add .`` will stage new or changed files to be sent to Github. ``git commit -m "message"`` takes a snapshot of the code along with a custom message inside the double quotations to describe the changes. 
 
-``git push origin defualt-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``. To verify the branch name, type in ``git branch`` before pushing the code.
+``git push origin default-branch`` pushes the altered code to the repository. Be aware that the ``default-branch`` in this command is usually named ``master`` or ``main``. To verify the branch name, type in ``git branch`` before pushing the code.
 <br></br>
 <img src="./images/branch.png" />
 <br></br>
@@ -104,7 +104,7 @@ The owner will now be able to review the pull request on the pull requests page.
 <img src="./images/requestACC.jpeg" />
 <br></br>
 
-The green circle indicates the requested changes for the repository that the owner can review prior to merging. If edits are satisfactory, the owner can click on the **Merge pull request** button and confirm integrating the code.
+The green circle indicates the requested changes for the repository that the owner can review before merging. If edits are satisfactory, the owner can click on the **Merge pull request** button and confirm integrating the code.
 <br></br>
 <img src="./images/reviewCode.jpeg" />
 <br></br>
