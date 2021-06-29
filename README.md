@@ -35,7 +35,7 @@ Cloning the original repository can quickly update projects since invited users 
 Forking a repository allows for wider access to Github users since they can edit any public project with supervision. Merging edits with the original repository occurs only with that repository owner's permission. It leaves room for reviewing code and ensuring changes are satisfactory.
 <br></br>
 # How to Fork a Github Repository
-To fork a repository, first locate a repository to work on through public access or an invititation from the owner. Once on the homepage for the project, click the **Fork** button located in the top-right corner of the browser and near the profile icon.
+To fork a repository, locate a repository to work on through public access or an invititation from the owner. Once on the homepage for the project, click the **Fork** button located in the top-right corner of the browser and near the profile icon.
 <br></br>
 <img src="./images/1stfork.jpeg"/>
 <br></br>
